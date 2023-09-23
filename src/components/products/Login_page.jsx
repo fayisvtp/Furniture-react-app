@@ -14,7 +14,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { Mycontext } from "../../Usecontext";
 // import { Productcontext } from "../Context";
-export default function Login_page() {
+export default function LoginPage() {
   
   const navigat = useNavigate();
   const {user,setisloggedin} = useContext(Mycontext);

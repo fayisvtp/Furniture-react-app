@@ -6,7 +6,7 @@ import {
   MDBCardGroup
 } from 'mdb-react-ui-kit';
 
-export default function Image_card() {
+export default function ImageCard() {
   return (
     
     <MDBCardGroup>

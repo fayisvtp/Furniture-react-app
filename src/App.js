@@ -9,9 +9,8 @@ import Living from './components/products/Living'
 import Showprdcts from './components/products/Showprdcts';
 import { useState } from 'react';
 import Caart from './components/products/Caart';
-// import Navbar from './components/Navbar';
-// import Login from './components/products/Login_page';
-import Login_page from './components/products/Login_page';
+
+
 import SignUp from './components/products/SignUp';
 import Search from './components/products/Search';
 import {demiUser}  from './components/products/Demiuser';
@@ -26,6 +25,7 @@ import Updateproduct from './components/admin_Panel/Updateproduct';
 import ViewUsers from './components/admin_Panel/ViewUsers';
 import {userList} from './components/admin_Panel/Demyuseres';
 import Payment from './components/products/Payment';
+import LoginPage from './components/products/Login_page';
 function App() {
   const [Products,setProduct]=useState(Product)
   const [cart,setCart]=useState([])
@@ -54,7 +54,7 @@ function App() {
 <Route path='/living'element={<Living/>}/>
 <Route path='/show/:id'element={<Showprdcts/>}/>
 <Route path='/caart'element={<Caart/>}/>
-<Route path='/login'element={<Login_page/>}/>
+<Route path='/login'element={<LoginPage/>}/>
 <Route path='/search'element={<Search/>}/>
 <Route path='/signup'element={<SignUp/>}/>
 <Route path='/payment'element={<Payment/>}/>

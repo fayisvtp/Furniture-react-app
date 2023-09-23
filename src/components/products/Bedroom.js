@@ -17,7 +17,8 @@ import {
 } from 'mdb-react-ui-kit';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../Navbar';
-import Image_card from './cards/Image_card';
+
+import ImageCard from './cards/Image_card';
 
 
 function Bedroom() {
@@ -82,7 +83,8 @@ The bedroom is often regarded as a sanctuary within the home, a private oasis wh
         ))}
     
       </MDBRow>
-      <Image_card/>
+      
+      <ImageCard/>
 
     </div>
   );

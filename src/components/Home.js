@@ -3,12 +3,11 @@ import './Home.css'
 import Footer from './Footer'
 // import Bedroom from './products/Bedroom'
 import Navbar from './Navbar'
-// import { Mycontext } from '../Usecontext'
-// import Cerousel from './products/Cerousel'
-import Image_card from './products/cards/Image_card'
+
 import { MDBTypography, MDBContainer, MDBRow, MDBCol,MDBBtn  } from 'mdb-react-ui-kit';
 import { MDBRipple } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
+import ImageCard from './products/cards/Image_card';
 
 
 function Home() {
@@ -149,7 +148,7 @@ function Home() {
     alt=""/>
 </div>
  */}
- <Image_card/>
+ <ImageCard/>
       <Footer/>
     </>
   )

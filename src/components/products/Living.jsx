@@ -84,7 +84,8 @@ import {
 } from 'mdb-react-ui-kit';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../Navbar';
-import Image_card from './cards/Image_card';
+
+import ImageCard from './cards/Image_card';
 
 function Bedroom() {
   // const {searchTerm} = useContext(Mycontext)
@@ -151,7 +152,7 @@ all who enter.
         ))}
     
       </MDBRow>
-      <Image_card/>
+      <ImageCard/>
 
     </div>
   );

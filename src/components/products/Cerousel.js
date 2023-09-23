@@ -1,9 +1,6 @@
 import React from 'react';
 import {
   MDBCard,
-  MDBCardBody,
-  MDBCardTitle,
-  MDBCardText,
   MDBCardImage
 } from 'mdb-react-ui-kit';
 import './Cerousel.css' 

@@ -10,7 +10,7 @@ import {
     MDBCol
   } from 'mdb-react-ui-kit';
 import { useNavigate, useParams } from 'react-router-dom';
-import Image_card from './cards/Image_card';
+// import Image_card from './cards/Image_card';
 import './Showprdcts.css'
 function Showprdcts() {
     const [count,setcount] = useState(1)

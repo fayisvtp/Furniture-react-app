@@ -75,13 +75,12 @@ import { Mycontext } from '../../Usecontext';
 import {
   MDBCard,
   MDBCardBody,
-  MDBCardText,
+ 
   MDBCardImage,
   MDBRow,
   MDBCol,
   MDBCardTitle,MDBCardOverlay,
-  MDBTypography,
-  MDBRipple
+
 } from 'mdb-react-ui-kit';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../Navbar';

@@ -10,7 +10,7 @@ import Showprdcts from './components/products/Showprdcts';
 import { useState } from 'react';
 import Caart from './components/products/Caart';
 // import Navbar from './components/Navbar';
-import Login from './components/products/Login_page';
+// import Login from './components/products/Login_page';
 import Login_page from './components/products/Login_page';
 import SignUp from './components/products/SignUp';
 import Search from './components/products/Search';

@@ -1,10 +1,9 @@
-import React,{useContext, useState} from 'react'
+import React,{useContext} from 'react'
 import { Mycontext } from '../../Usecontext';
 import Navbar from '../Navbar';
 import {
     MDBCard,
     MDBCardBody,
-    MDBCardText,
     MDBCardImage,
     MDBRow,
     MDBCol,

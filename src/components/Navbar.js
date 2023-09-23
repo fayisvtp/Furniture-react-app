@@ -17,7 +17,7 @@ import { useNavigate } from 'react-router-dom';
 import { Mycontext } from '../Usecontext';
 
 export default function Navbar() {
-  const {setSearchTerm,searchTerm,cart,isloggedin,setisloggedin} = useContext(Mycontext)
+  const {setSearchTerm,searchTerm,cart,isloggedin} = useContext(Mycontext)
   const navigate=useNavigate()
   const [showNavNoTogglerSecond, setShowNavNoTogglerSecond] = useState(true);
 const handleCart=()=>{

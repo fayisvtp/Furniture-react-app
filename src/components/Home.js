@@ -1,10 +1,10 @@
-import React, { useContext } from 'react'
+// import React, { useContext } from 'react'
 import './Home.css' 
 import Footer from './Footer'
-import Bedroom from './products/Bedroom'
+// import Bedroom from './products/Bedroom'
 import Navbar from './Navbar'
-import { Mycontext } from '../Usecontext'
-import Cerousel from './products/Cerousel'
+// import { Mycontext } from '../Usecontext'
+// import Cerousel from './products/Cerousel'
 import Image_card from './products/cards/Image_card'
 import { MDBTypography, MDBContainer, MDBRow, MDBCol,MDBBtn  } from 'mdb-react-ui-kit';
 import { MDBRipple } from 'mdb-react-ui-kit';

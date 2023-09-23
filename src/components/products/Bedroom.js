@@ -13,8 +13,7 @@ import {
   MDBRow,
   MDBCol,
   MDBCardTitle,MDBCardOverlay,
-  MDBTypography,
-  MDBRipple
+
 } from 'mdb-react-ui-kit';
 import { useNavigate } from 'react-router-dom';
 import Navbar from '../Navbar';

@@ -3,9 +3,6 @@ import './Image_card.css'
 import {
   MDBCard,
   MDBCardImage,
-  MDBCardBody,
-  MDBCardTitle,
-  MDBCardText,
   MDBCardGroup
 } from 'mdb-react-ui-kit';
 

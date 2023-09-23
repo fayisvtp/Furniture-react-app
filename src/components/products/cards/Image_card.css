@@ -1,0 +1,10 @@
+.Image{
+    background-color: #1e1d1b;
+    background-image: linear-gradient(315deg, #1e1d1b 0%, #cc9934 74%);
+    /* background-color: #d99058;
+    background-image: linear-gradient(315deg, #d99058 0%, #f8de7e 74%); */
+opacity: 90%;
+}
+.Image:hover{
+    opacity: 100;
+}
